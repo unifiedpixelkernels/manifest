@@ -17,9 +17,9 @@
   </project>
 
   <!-- raviole -->
-  <project path="raviole/aosp"                                                          name="kernel_common_5.10"                                                 groups="raviole" remote="grapheneos"   revision="bafe84ec74cd629b34aad1081e6ad54a2652e605" /> <!-- based on ACK ASB 12-5.10 kernel tag -->
+  <project path="raviole/aosp"                                                          name="kernel_common_5.10"                                                 groups="raviole" remote="grapheneos"   /> <!-- based on ACK ASB 12-5.10 kernel tag -->
   <project path="raviole/prebuilts/boot-artifacts"                                      name="platform/prebuilts/boot-artifacts"                                  groups="raviole" remote="aosp-raviole" clone-depth="1" />
-  <project path="raviole/private/gs-google"                                             name="kernel_google_raviole"                                              groups="raviole" remote="grapheneos"   revision="ce4a75497704b804867b17316775a64509e7434b" /> <!-- based on raviole kernel tag -->
+  <project path="raviole/private/gs-google"                                             name="kernel_google_raviole"                                              groups="raviole" remote="grapheneos"   /> <!-- based on raviole kernel tag -->
   <project path="raviole/private/google-modules/amplifiers"                             name="kernel/google-modules/amplifiers"                                   groups="raviole" remote="aosp-raviole" />
   <project path="raviole/private/google-modules/aoc"                                    name="kernel/google-modules/aoc"                                          groups="raviole" remote="aosp-raviole" />
   <project path="raviole/private/google-modules/aoc_ipc"                                name="kernel/google-modules/aoc-ipc"                                      groups="raviole" remote="aosp-raviole" />
@@ -37,11 +37,11 @@
   <project path="raviole/private/google-modules/touch/sec"                              name="kernel/google-modules/touch/sec_touch"                              groups="raviole" remote="aosp-raviole" />
   <project path="raviole/private/google-modules/uwb"                                    name="kernel/google-modules/uwb"                                          groups="raviole" remote="aosp-raviole" />
   <project path="raviole/private/google-modules/nfc"                                    name="kernel/google-modules/nfc"                                          groups="raviole" remote="aosp-raviole" />
-  <project path="raviole/private/google-modules/wlan/bcmdhd43752"                       name="kernel_google-modules_wlan_bcmdhd_bcm43752"                         groups="raviole" remote="grapheneos"   revision="8ca5c22af062be73a396bc17791f1368fcd7c0f9" />
-  <project path="raviole/private/google-modules/wlan/bcmdhd4389"                        name="kernel_google-modules_wlan_bcmdhd_bcm4389"                          groups="raviole" remote="grapheneos"   revision="a9a7f7237e5b14ad813e6b1ca8c3551d221e1ba9" />
+  <project path="raviole/private/google-modules/wlan/bcmdhd43752"                       name="kernel_google-modules_wlan_bcmdhd_bcm43752"                         groups="raviole" remote="grapheneos"   />
+  <project path="raviole/private/google-modules/wlan/bcmdhd4389"                        name="kernel_google-modules_wlan_bcmdhd_bcm4389"                          groups="raviole" remote="grapheneos"   />
   <!-- redbull -->
   <project path="redbull/prebuilts/boot-artifacts"                                      name="platform/prebuilts/boot-artifacts"                                  groups="redbull" remote="aosp-redbull" clone-depth="1" />
-  <project path="redbull/private/msm-google"                                            name="kernel_google_redbull"                                              groups="redbull" remote="grapheneos"   revision="10708e504732ea619daabb4fd5bc45da57c28da6" /> <!-- based on redbull kernel tag -->
+  <project path="redbull/private/msm-google"                                            name="kernel_google_redbull"                                              groups="redbull" remote="grapheneos"   /> <!-- based on redbull kernel tag -->
   <project path="redbull/private/msm-google/arch/arm64/boot/dts/vendor"                 name="kernel/msm-extra/devicetree"                                        groups="redbull" remote="aosp-redbull" />
   <project path="redbull/private/msm-google/arch/arm64/boot/dts/vendor/qcom/camera"     name="kernel/msm-extra/camera-devicetree"                                 groups="redbull" remote="aosp-redbull" />
   <project path="redbull/private/msm-google/arch/arm64/boot/dts/vendor/qcom/display"    name="kernel/msm-extra/display-devicetree"                                groups="redbull" remote="aosp-redbull" />
@@ -58,7 +58,7 @@
   <project path="redbull/private/msm-google-modules/touch/sec"                          name="kernel/msm-modules/sec_touch"                                       groups="redbull" remote="aosp-redbull" />
   <!-- barbet -->
   <project path="barbet/prebuilts/boot-artifacts"                                       name="platform/prebuilts/boot-artifacts"                                  groups="barbet"  remote="aosp-barbet"  clone-depth="1" />
-  <project path="barbet/private/msm-google"                                             name="kernel_google_barbet"                                               groups="barbet"  remote="grapheneos"   revision="2897cf287ab8fb45944981341b0dc5b46f1e8581" /> <!-- based on barbet kernel tag -->
+  <project path="barbet/private/msm-google"                                             name="kernel_google_barbet"                                               groups="barbet"  remote="grapheneos"   /> <!-- based on barbet kernel tag -->
   <project path="barbet/private/msm-google/arch/arm64/boot/dts/vendor"                  name="kernel/msm-extra/devicetree"                                        groups="barbet"  remote="aosp-barbet"  />
   <project path="barbet/private/msm-google/arch/arm64/boot/dts/vendor/qcom/camera"      name="kernel/msm-extra/camera-devicetree"                                 groups="barbet"  remote="aosp-barbet"  />
   <project path="barbet/private/msm-google/arch/arm64/boot/dts/vendor/qcom/display"     name="kernel/msm-extra/display-devicetree"                                groups="barbet"  remote="aosp-barbet"  />
@@ -82,11 +82,11 @@
   <project path="coral/private/msm-google-modules/touch/fts/floral"                     name="kernel/msm-modules/fts_touch"                                       groups="coral"   remote="aosp-coral"   />
   <project path="coral/private/msm-google-modules/touch/fts/sunfish"                    name="kernel/msm-modules/fts_touch_s5"                                    groups="coral"   remote="aosp-sunfish" />
   <!-- common -->
-  <project path="build"                                                                 name="kernel_build"                                                       groups="generic" remote="grapheneos"   revision="815ad1c69d553ac720a833330a694f2bdd19e321" /> <!-- based on raviole kernel tag as its the newest out of all devices (and works fine on all) -->
+  <project path="build"                                                                 name="kernel_build"                                                       groups="generic" remote="grapheneos"   /> <!-- based on raviole kernel tag as its the newest out of all devices (and works fine on all) -->
   <project path="kernel/configs"                                                        name="kernel_configs"                                                     groups="generic" remote="grapheneos"   /> <!-- based on stable tag -->
   <project path="prebuilts/build-tools"                                                 name="platform/prebuilts/build-tools"                                     groups="generic" remote="aosp-stable"  clone-depth="1" />
-  <project path="prebuilts/kernel-build-tools"                                          name="kernel/prebuilts/build-tools"                                       groups="generic" remote="aosp"  clone-depth="1" revision="a5fcf02304b51f43d2c8bfd587e26755e3ce2701" /> <!-- all 12L manifests use this -->
-  <project path="prebuilts/gas/linux-x86"                                               name="platform/prebuilts/gas/linux-x86"                                   groups="generic" remote="aosp"  clone-depth="1" revision="592150fc8ae9f48f2e73f390961f32ca6f5f6a9f" /> <!-- redbull manifest uses this -->
+  <project path="prebuilts/kernel-build-tools"                                          name="kernel/prebuilts/build-tools"                                       groups="generic" remote="aosp"         clone-depth="1" revision="a5fcf02304b51f43d2c8bfd587e26755e3ce2701" /> <!-- all 12L manifests use this -->
+  <project path="prebuilts/gas/linux-x86"                                               name="platform/prebuilts/gas/linux-x86"                                   groups="generic" remote="aosp"         clone-depth="1" revision="592150fc8ae9f48f2e73f390961f32ca6f5f6a9f" /> <!-- redbull manifest uses this -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"             name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="generic" remote="aosp-stable"  clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"                 name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"     groups="generic" remote="aosp-stable"  clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"               name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"   groups="generic" remote="aosp-stable"  clone-depth="1" />
