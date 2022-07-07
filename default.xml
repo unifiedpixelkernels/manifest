@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp-raviole"  fetch="https://android.googlesource.com/"   revision="refs/tags/android-12.1.0_r0.35"/>
-  <remote  name="aosp-redbull"  fetch="https://android.googlesource.com/"   revision="refs/tags/android-12.1.0_r0.33"/>
-  <remote  name="aosp-barbet"   fetch="https://android.googlesource.com/"   revision="refs/tags/android-12.1.0_r0.34"/>
-  <remote  name="aosp-coral"    fetch="https://android.googlesource.com/"   revision="refs/tags/android-12.1.0_r0.31"/>
-  <remote  name="aosp-sunfish"  fetch="https://android.googlesource.com/"   revision="refs/tags/android-12.1.0_r0.32"/>
+  <remote  name="aosp-raviole"  fetch="https://android.googlesource.com/"   revision="refs/tags/android-t-beta-3.3_r0.4"/>
+  <remote  name="aosp-redbull"  fetch="https://android.googlesource.com/"   revision="refs/tags/android-t-beta-3.3_r0.3"/>
+  <remote  name="aosp-coral"    fetch="https://android.googlesource.com/"   revision="refs/tags/android-t-beta-3.3_r0.1"/>
+  <remote  name="aosp-sunfish"  fetch="https://android.googlesource.com/"   revision="refs/tags/android-t-beta-3.3_r0.2"/>
   <remote  name="aosp"          fetch="https://android.googlesource.com/"                                            />
-  <remote  name="aosp-stable"   fetch="https://android.googlesource.com/"   revision="refs/tags/android-12.1.0_r11" />
-  <remote  name="grapheneos"    fetch="https://github.com/unifiedpixelkernels/"      revision="refs/heads/12.1"      />
+  <remote  name="aosp-stable"   fetch="https://android.googlesource.com/"   revision="refs/heads/master" />
+  <remote  name="grapheneos"    fetch="https://github.com/unifiedpixelkernels/"      revision="refs/heads/13"      />
 
   <default sync-j="8" />
 
