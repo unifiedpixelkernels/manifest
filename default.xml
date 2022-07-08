@@ -25,7 +25,6 @@
   <project path="raviole/private/google-modules/bluetooth/broadcom"                     name="kernel/google-modules/bluetooth/broadcom"                           groups="raviole" remote="aosp-raviole" />
   <project path="raviole/private/google-modules/bms"                                    name="kernel/google-modules/bms"                                          groups="raviole" remote="aosp-raviole" />
   <project path="raviole/private/google-modules/display"                                name="kernel/google-modules/display"                                      groups="raviole" remote="aosp-raviole" />
-  <project path="raviole/private/google-modules/edgetpu"                                name="kernel/google-modules/edgetpu"                                      groups="raviole" remote="aosp-raviole" />
   <project path="raviole/private/google-modules/fingerprint/fpc"                        name="kernel/google-modules/fingerprint/fpc"                              groups="raviole" remote="aosp-raviole" />
   <project path="raviole/private/google-modules/fingerprint/goodix"                     name="kernel/google-modules/fingerprint/goodix"                           groups="raviole" remote="aosp-raviole" />
   <project path="raviole/private/google-modules/gpu"                                    name="kernel/google-modules/gpu"                                          groups="raviole" remote="aosp-raviole" />
