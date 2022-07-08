@@ -35,7 +35,6 @@
   <project path="raviole/private/google-modules/touch/sec"                              name="kernel/google-modules/touch/sec_touch"                              groups="raviole" remote="aosp-raviole" />
   <project path="raviole/private/google-modules/uwb"                                    name="kernel/google-modules/uwb"                                          groups="raviole" remote="aosp-raviole" />
   <project path="raviole/private/google-modules/nfc"                                    name="kernel/google-modules/nfc"                                          groups="raviole" remote="aosp-raviole" />
-  <project path="raviole/private/google-modules/wlan/bcmdhd43752"                       name="kernel_google-modules_wlan_bcmdhd_bcm43752"                         groups="raviole" remote="grapheneos"   />
   <project path="raviole/private/google-modules/wlan/bcmdhd4389"                        name="kernel_google-modules_wlan_bcmdhd_bcm4389"                          groups="raviole" remote="grapheneos"   />
   <!-- redbull -->
   <project path="redbull/prebuilts/boot-artifacts"                                      name="platform/prebuilts/boot-artifacts"                                  groups="redbull" remote="aosp-redbull" clone-depth="1" />
